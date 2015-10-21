@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		340240611BD84353002881C9 /* Keys.m in Sources */ = {isa = PBXBuildFile; fileRef = 340240601BD84353002881C9 /* Keys.m */; settings = {ASSET_TAGS = (); }; };
+		34B7A73D1BD84234001E6AD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B7A73C1BD84234001E6AD5 /* main.m */; };
+		34B7A7401BD84234001E6AD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B7A73F1BD84234001E6AD5 /* AppDelegate.m */; };
+		34B7A7431BD84234001E6AD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B7A7421BD84234001E6AD5 /* ViewController.m */; };
+		34B7A7461BD84234001E6AD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B7A7441BD84234001E6AD5 /* Main.storyboard */; };
+		34B7A7481BD84234001E6AD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B7A7471BD84234001E6AD5 /* Assets.xcassets */; };
+		34B7A74B1BD84234001E6AD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B7A7491BD84234001E6AD5 /* LaunchScreen.storyboard */; };
+		34B7A7561BD84235001E6AD5 /* Regent_Bakery_and_CafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B7A7551BD84235001E6AD5 /* Regent_Bakery_and_CafeTests.m */; };
+		34B7A7611BD84235001E6AD5 /* Regent_Bakery_and_CafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34B7A7601BD84235001E6AD5 /* Regent_Bakery_and_CafeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34B7A7521BD84234001E6AD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B7A7301BD84234001E6AD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B7A7371BD84234001E6AD5;
+			remoteInfo = "Regent Bakery and Cafe";
+		};
+		34B7A75D1BD84235001E6AD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B7A7301BD84234001E6AD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B7A7371BD84234001E6AD5;
+			remoteInfo = "Regent Bakery and Cafe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3402405F1BD84353002881C9 /* Keys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keys.h; path = ../Keys.h; sourceTree = "<group>"; };
+		340240601BD84353002881C9 /* Keys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Keys.m; path = ../Keys.m; sourceTree = "<group>"; };
+		34B7A7381BD84234001E6AD5 /* Regent Bakery and Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Regent Bakery and Cafe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B7A73C1BD84234001E6AD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34B7A73E1BD84234001E6AD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34B7A73F1BD84234001E6AD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34B7A7411BD84234001E6AD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34B7A7421BD84234001E6AD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34B7A7451BD84234001E6AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34B7A7471BD84234001E6AD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34B7A74A1BD84234001E6AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34B7A74C1BD84234001E6AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B7A7511BD84234001E6AD5 /* Regent Bakery and CafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Regent Bakery and CafeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B7A7551BD84235001E6AD5 /* Regent_Bakery_and_CafeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Regent_Bakery_and_CafeTests.m; sourceTree = "<group>"; };
+		34B7A7571BD84235001E6AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B7A75C1BD84235001E6AD5 /* Regent Bakery and CafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Regent Bakery and CafeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B7A7601BD84235001E6AD5 /* Regent_Bakery_and_CafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Regent_Bakery_and_CafeUITests.m; sourceTree = "<group>"; };
+		34B7A7621BD84235001E6AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34B7A7351BD84234001E6AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7A74E1BD84234001E6AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7A7591BD84235001E6AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B7A72F1BD84234001E6AD5 = {
+			isa = PBXGroup;
+			children = (
+				34B7A73A1BD84234001E6AD5 /* Regent Bakery and Cafe */,
+				34B7A7541BD84234001E6AD5 /* Regent Bakery and CafeTests */,
+				34B7A75F1BD84235001E6AD5 /* Regent Bakery and CafeUITests */,
+				34B7A7391BD84234001E6AD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34B7A7391BD84234001E6AD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B7A7381BD84234001E6AD5 /* Regent Bakery and Cafe.app */,
+				34B7A7511BD84234001E6AD5 /* Regent Bakery and CafeTests.xctest */,
+				34B7A75C1BD84235001E6AD5 /* Regent Bakery and CafeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B7A73A1BD84234001E6AD5 /* Regent Bakery and Cafe */ = {
+			isa = PBXGroup;
+			children = (
+				34B7A73E1BD84234001E6AD5 /* AppDelegate.h */,
+				34B7A73F1BD84234001E6AD5 /* AppDelegate.m */,
+				3402405F1BD84353002881C9 /* Keys.h */,
+				340240601BD84353002881C9 /* Keys.m */,
+				34B7A7411BD84234001E6AD5 /* ViewController.h */,
+				34B7A7421BD84234001E6AD5 /* ViewController.m */,
+				34B7A7441BD84234001E6AD5 /* Main.storyboard */,
+				34B7A7471BD84234001E6AD5 /* Assets.xcassets */,
+				34B7A7491BD84234001E6AD5 /* LaunchScreen.storyboard */,
+				34B7A74C1BD84234001E6AD5 /* Info.plist */,
+				34B7A73B1BD84234001E6AD5 /* Supporting Files */,
+			);
+			path = "Regent Bakery and Cafe";
+			sourceTree = "<group>";
+		};
+		34B7A73B1BD84234001E6AD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34B7A73C1BD84234001E6AD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34B7A7541BD84234001E6AD5 /* Regent Bakery and CafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				34B7A7551BD84235001E6AD5 /* Regent_Bakery_and_CafeTests.m */,
+				34B7A7571BD84235001E6AD5 /* Info.plist */,
+			);
+			path = "Regent Bakery and CafeTests";
+			sourceTree = "<group>";
+		};
+		34B7A75F1BD84235001E6AD5 /* Regent Bakery and CafeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34B7A7601BD84235001E6AD5 /* Regent_Bakery_and_CafeUITests.m */,
+				34B7A7621BD84235001E6AD5 /* Info.plist */,
+			);
+			path = "Regent Bakery and CafeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34B7A7371BD84234001E6AD5 /* Regent Bakery and Cafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B7A7651BD84235001E6AD5 /* Build configuration list for PBXNativeTarget "Regent Bakery and Cafe" */;
+			buildPhases = (
+				34B7A7341BD84234001E6AD5 /* Sources */,
+				34B7A7351BD84234001E6AD5 /* Frameworks */,
+				34B7A7361BD84234001E6AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Regent Bakery and Cafe";
+			productName = "Regent Bakery and Cafe";
+			productReference = 34B7A7381BD84234001E6AD5 /* Regent Bakery and Cafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34B7A7501BD84234001E6AD5 /* Regent Bakery and CafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B7A7681BD84235001E6AD5 /* Build configuration list for PBXNativeTarget "Regent Bakery and CafeTests" */;
+			buildPhases = (
+				34B7A74D1BD84234001E6AD5 /* Sources */,
+				34B7A74E1BD84234001E6AD5 /* Frameworks */,
+				34B7A74F1BD84234001E6AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B7A7531BD84234001E6AD5 /* PBXTargetDependency */,
+			);
+			name = "Regent Bakery and CafeTests";
+			productName = "Regent Bakery and CafeTests";
+			productReference = 34B7A7511BD84234001E6AD5 /* Regent Bakery and CafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34B7A75B1BD84235001E6AD5 /* Regent Bakery and CafeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B7A76B1BD84235001E6AD5 /* Build configuration list for PBXNativeTarget "Regent Bakery and CafeUITests" */;
+			buildPhases = (
+				34B7A7581BD84235001E6AD5 /* Sources */,
+				34B7A7591BD84235001E6AD5 /* Frameworks */,
+				34B7A75A1BD84235001E6AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B7A75E1BD84235001E6AD5 /* PBXTargetDependency */,
+			);
+			name = "Regent Bakery and CafeUITests";
+			productName = "Regent Bakery and CafeUITests";
+			productReference = 34B7A75C1BD84235001E6AD5 /* Regent Bakery and CafeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34B7A7301BD84234001E6AD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Regent;
+				TargetAttributes = {
+					34B7A7371BD84234001E6AD5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					34B7A7501BD84234001E6AD5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 34B7A7371BD84234001E6AD5;
+					};
+					34B7A75B1BD84235001E6AD5 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 34B7A7371BD84234001E6AD5;
+					};
+				};
+			};
+			buildConfigurationList = 34B7A7331BD84234001E6AD5 /* Build configuration list for PBXProject "Regent Bakery and Cafe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34B7A72F1BD84234001E6AD5;
+			productRefGroup = 34B7A7391BD84234001E6AD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34B7A7371BD84234001E6AD5 /* Regent Bakery and Cafe */,
+				34B7A7501BD84234001E6AD5 /* Regent Bakery and CafeTests */,
+				34B7A75B1BD84235001E6AD5 /* Regent Bakery and CafeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34B7A7361BD84234001E6AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B7A74B1BD84234001E6AD5 /* LaunchScreen.storyboard in Resources */,
+				34B7A7481BD84234001E6AD5 /* Assets.xcassets in Resources */,
+				34B7A7461BD84234001E6AD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7A74F1BD84234001E6AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7A75A1BD84235001E6AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34B7A7341BD84234001E6AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B7A7431BD84234001E6AD5 /* ViewController.m in Sources */,
+				340240611BD84353002881C9 /* Keys.m in Sources */,
+				34B7A7401BD84234001E6AD5 /* AppDelegate.m in Sources */,
+				34B7A73D1BD84234001E6AD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7A74D1BD84234001E6AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B7A7561BD84235001E6AD5 /* Regent_Bakery_and_CafeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B7A7581BD84235001E6AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B7A7611BD84235001E6AD5 /* Regent_Bakery_and_CafeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34B7A7531BD84234001E6AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B7A7371BD84234001E6AD5 /* Regent Bakery and Cafe */;
+			targetProxy = 34B7A7521BD84234001E6AD5 /* PBXContainerItemProxy */;
+		};
+		34B7A75E1BD84235001E6AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B7A7371BD84234001E6AD5 /* Regent Bakery and Cafe */;
+			targetProxy = 34B7A75D1BD84235001E6AD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34B7A7441BD84234001E6AD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B7A7451BD84234001E6AD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34B7A7491BD84234001E6AD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B7A74A1BD84234001E6AD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34B7A7631BD84235001E6AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34B7A7641BD84235001E6AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34B7A7661BD84235001E6AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Regent Bakery and Cafe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Regent.Regent-Bakery-and-Cafe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34B7A7671BD84235001E6AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Regent Bakery and Cafe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Regent.Regent-Bakery-and-Cafe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34B7A7691BD84235001E6AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Regent Bakery and CafeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Regent.Regent-Bakery-and-CafeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Regent Bakery and Cafe.app/Regent Bakery and Cafe";
+			};
+			name = Debug;
+		};
+		34B7A76A1BD84235001E6AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Regent Bakery and CafeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Regent.Regent-Bakery-and-CafeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Regent Bakery and Cafe.app/Regent Bakery and Cafe";
+			};
+			name = Release;
+		};
+		34B7A76C1BD84235001E6AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Regent Bakery and CafeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Regent.Regent-Bakery-and-CafeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Regent Bakery and Cafe";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		34B7A76D1BD84235001E6AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Regent Bakery and CafeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Regent.Regent-Bakery-and-CafeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Regent Bakery and Cafe";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34B7A7331BD84234001E6AD5 /* Build configuration list for PBXProject "Regent Bakery and Cafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B7A7631BD84235001E6AD5 /* Debug */,
+				34B7A7641BD84235001E6AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B7A7651BD84235001E6AD5 /* Build configuration list for PBXNativeTarget "Regent Bakery and Cafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B7A7661BD84235001E6AD5 /* Debug */,
+				34B7A7671BD84235001E6AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B7A7681BD84235001E6AD5 /* Build configuration list for PBXNativeTarget "Regent Bakery and CafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B7A7691BD84235001E6AD5 /* Debug */,
+				34B7A76A1BD84235001E6AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B7A76B1BD84235001E6AD5 /* Build configuration list for PBXNativeTarget "Regent Bakery and CafeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B7A76C1BD84235001E6AD5 /* Debug */,
+				34B7A76D1BD84235001E6AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34B7A7301BD84234001E6AD5 /* Project object */;
+}
