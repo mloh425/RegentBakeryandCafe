@@ -1,0 +1,212 @@
+[
+  {
+    "flavor": "Black Forest",
+    "cakeDescription": "Better known as the Portal Cake, this is a chocolate cake filled with custard cream and bing cherries. The Black Forest cake is decorated with fresh whipped cream and chocolate shavings.",
+    "image": "blackforrest",
+    "sizePricing": {
+      "6 inch": "22",
+      "8 inch": "32",
+      "10 inch": "46",
+      "Quarter Sheet": "56",
+      "Half Sheet": "92",
+      "Three Quarter Sheet": "130",
+      "Full Sheet": "164"
+    }
+  },
+  {
+    "flavor": "Cheese Cake",
+    "cakeDescription": "A rich, traditional New York style cheesecake with a vanilla cake base.",
+    "image": "cheesecake",
+    "sizePricing": {
+    "8 inch": "32",
+    }
+  },
+  {
+    "flavor": "Chestnut",
+    "cakeDescription": "A vanilla sponge cake layered with chestnut puree and covered in a caramel glaze.",
+    "image": "chestnutcake",
+    "sizePricing": {
+      "6 inch": "26",
+      "8 inch": "36",
+      "10 inch": "48",
+      "Quarter Sheet": "60",
+      "Half Sheet": "92",
+      "Three Quarter Sheet": "134",
+      "Full Sheet": "168"
+    }
+  },
+  {
+    "flavor": "Chocolate Mousse",
+    "cakeDescription": "A rich, creamy mousse cake made with chocolate.",
+    "image": "chocolatemousse",
+    "sizePricing": {
+      "6 inch": "25",
+      "8 inch": "35",
+      "10 inch": "48",
+      "Quarter Sheet": "64",
+      "Half Sheet": "98",
+      "Three Quarter Sheet": "150",
+      "Full Sheet": "184"
+    }
+  },
+  {
+    "flavor": "Fruit Cake",
+    "cakeDescription": "Layered with honeydew and cantaloupe, our popular fresh fruit cake is light and refreshing.",
+    "image": "fruit",
+    "sizePricing": {
+      "6 inch": "20",
+      "8 inch": "30",
+      "10 inch": "44",
+      "Quarter Sheet": "56",
+      "Half Sheet": "92",
+      "Three Quarter Sheet": "130",
+      "Full Sheet": "160"
+    }
+  },
+  {
+    "flavor" : "Green Tea Mousse",
+    "cakeDescription": "Beautiful in its emerald color, it is filled with layers of delicous matcha flavors.",
+    "image": "greenteamousse",
+    "sizePricing": {
+      "8 inch": "34",
+      "10 inch": "48",
+      "Quarter Sheet": "62",
+      "Half Sheet": "98",
+      "Three Quarter Sheet": "150",
+      "Full Sheet": "184"
+    }
+  },
+  {
+    "flavor": "Hazelnut Truffle",
+    "cakeDescription": "Topped off with cocoa powder, our delicious hazelnut truffle is a rich yet light in flavoring.",
+    "image": "hazelnuttruffle",
+    "sizePricing": {
+      "8 inch": "35",
+      "Quarter Sheet": "62",
+      "Half Sheet": "98",
+      "Three Quarter Sheet": "150",
+      "Full Sheet": "184"
+    }
+  },
+  {
+    "flavor" : "Mango Cake",
+    "cakeDescription": "Our seasonal, fresh mango cake is layered with light whipped cream and vanilla sponge cake.",
+    "image": "freshmango",
+    "sizePricing": {
+      "6 inch": "26",
+      "8 inch": "36",
+      "10 inch": "52",
+      "Quarter Sheet": "66",
+      "Half Sheet": "105",
+      "Three Quarter Sheet": "155",
+      "Full Sheet": "188"
+    }
+  },
+  {
+    "flavor": "Mango Mousse",
+    "cakeDescription": "A mango flavored sweet, yet tart mousse cake with a vanilla base sponge cake.",
+    "image": "mangomousse",
+    "sizePricing": {
+      "6 inch": "24",
+      "8 inch": "33",
+      "10 inch": "48",
+      "Quarter Sheet": "62",
+      "Half Sheet": "98",
+      "Three Quarter Sheet": "150",
+      "Full Sheet": "184"
+    }
+  },
+  {
+    "flavor": "Mocha Cake",
+    "cakeDescription": "A vanilla sponge cake layered with mocha flavored whipped cream.",
+    "image": "mocha",
+    "sizePricing": {
+      "8 inch": "30",
+      "10 inch": "44",
+      "Quarter Sheet": "56",
+      "Half Sheet": "92",
+      "Three Quarter Sheet": "130",
+      "Full Sheet": "160"
+    }
+  },
+  {
+    "flavor" : "Napoleon",
+    "cakeDescription": "Layered with butter cream and wafers, the Napoleon is a crispy and savory desert.",
+    "image": "napolean",
+    "sizePricing": {
+      "8 inch": "35",
+      "Quarter Sheet": "62",
+      "Half Sheet": "98.0",
+      "Three Quarter Sheet": "150",
+      "Full Sheet": "184"
+    }
+  },
+  {
+    "flavor" : "Strawberry Cake",
+    "cakeDescription": "Vanilla sponge cake layered with fresh strawberries and light whipped cream. ",
+    "image": "strawberry",
+    "sizePricing": {
+      "6 inch": "24",
+      "8 inch": "34",
+      "10 inch": "52",
+      "Quarter Sheet": "66",
+      "Half Sheet": "105",
+      "Three Quarter Sheet": "155",
+      "Full Sheet": "188"
+    }
+  },
+  {
+    "flavor" : "Strawberry Mousse",
+    "cakeDescription": "A strawberry flavored sweet, yet tart mousse cake with a vanilla base sponge cake.",
+    "image": "strawberrymousse",
+    "sizePricing": {
+      "6 inch": "24",
+      "8 inch": "34",
+      "10 inch": "48",
+      "Quarter Sheet": "62",
+      "Half Sheet": "98",
+      "Three Quarter Sheet": "150",
+      "Full Sheet": "184"
+    }
+  },
+  {
+    "flavor" : "Swiss Chocolate",
+    "cakeDescription": "A chocolate sponge layered cake with a light, milk chocolate whipped cream.",
+    "image": "swisschocolate",
+    "sizePricing": {
+      "8 inch": "33",
+      "10 inch": "48",
+      "Quarter Sheet": "62",
+      "Half Sheet": "98",
+      "Three Quarter Sheet": "150",
+      "Full Sheet": "184"
+    }
+  },
+  {
+    "flavor": "Taro",
+    "cakeDescription": "A vanilla sponge cake layered with fresh taro puree.",
+    "image": "taro",
+    "sizePricing": {
+      "6 inch": "22",
+      "8 inch": "32",
+      "10 inch": "48",
+      "Quarter Sheet": "60",
+      "Half Sheet": "92",
+      "Three Quarter Sheet": "134",
+      "Full Sheet": "168"
+    }
+  },
+  {
+    "flavor": "Tiramisu",
+    "cakeDescription": "A rich desert that blends cocoa, espresso, mascarpone cheese, and touch of rum.",
+    "image": "tiramisu",
+    "sizePricing": {
+      "8 inch": "35",
+      "10 inch": "50",
+      "Quarter Sheet": "66",
+      "Half Sheet": "105",
+      "Three Quarter Sheet": "155",
+      "Full Sheet": "188"
+    }
+  }
+]
